@@ -1,0 +1,53 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine' bindtap='onTodetail'>
+  <view class='meleft'>
+    <image src='/image/icon_photo.png' class='bg'></image>
+    <view class='word'>
+      <view>{{nickname}}</view>
+      <view>{{phone}}</view>
+      <view>{{cardID}}</view>
+    </view>
+  </view>
+
+</view>
+<view class='itemall'>
+  <view class='item' bindtap='onpatient'>
+    <view class='itemleft'>
+      <image src='/image/icon_fiend.png'></image>
+      <text>常用就诊人</text>
+    </view>
+    <view class='itemright'>
+      <image src='/image/btn_right.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='itemall'>
+  <view class='item' bindtap='onreport'>
+    <view class='itemleft'>
+      <image src='/image/icon_register.png'></image>
+      <text>我的报告</text>
+    </view>
+    <view class='itemright'>
+      <image src='/image/btn_right.png'></image>
+    </view>
+  </view>
+  <view class='item' bindtap='onpay'>
+    <view class='itemleft'>
+      <image src='/image/icon_register.png'></image>
+      <text>我的缴费</text>
+    </view>
+    <view class='itemright'>
+      <image src='/image/btn_right.png'></image>
+    </view>
+  </view>
+  <view class='item' bindtap='onregister'>
+    <view class='itemleft'>
+      <image src='/image/icon_paymente.png'></image>
+      <text>挂号记录</text>
+    </view>
+    <view class='itemright'>
+      <image src='/image/btn_right.png'></image>
+    </view>
+  </view>
+</view>

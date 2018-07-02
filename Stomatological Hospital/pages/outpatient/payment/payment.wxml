@@ -1,0 +1,120 @@
+<view>
+  <view class='title'>
+    <view class='le'>就诊人</view>
+    <view class='kl'>
+      <text>xxx</text>
+      <image src='/image/u154.png'></image>
+    </view>
+  </view>
+  <view class='nav'>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">未缴费</view>
+    <view class="{{selected?'red':'default'}}" bindtap="selected">已缴费</view>
+  </view>
+
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class='cont'>
+      <view class='itemleft'>
+        <view>
+          病人ID
+        </view>
+        <view>
+          就诊人
+        </view>
+        <view>就诊时间 </view>
+        <view>卡号</view>
+      </view>
+      <view class='middle'>
+        <view>384348343245463</view>
+        <view>XXX</view>
+        <view>2018-06-25</view>
+        <view>352523235</view>
+      </view>
+      <view class='itemright'>
+        <image src='/image/u637.png' bindtap='onslide'></image>
+      </view>
+
+    </view>
+    <view class=" hid{{chose?'shw':''}}">
+      <view class='title1'>
+        <text>处方号</text>
+      </view>
+      <view class='shadow'>
+        <view>
+          <text>名称</text>
+          <text>XXXXX</text>
+        </view>
+        <view>
+          <text>数量</text>
+          <text>1</text>
+        </view>
+        <view>
+          <text>金额</text>
+          <text>233</text>
+        </view>
+      </view>
+    </view>
+    <view class='foot'>
+      <view class='footleft'>
+        <text>合计</text>
+        <text style='color:red'>899.0元</text>
+      </view>
+      <view class='footright'>
+        <button form-type='submit' hover-class='none'>缴费</button>
+      </view>
+    </view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+    <view class='cont'>
+      <view class='itemleft'>
+        <view>
+          病人ID
+        </view>
+        <view>
+          就诊人
+        </view>
+        <view>就诊时间 </view>
+        <view>卡号</view>
+      </view>
+      <view class='middle'>
+        <view>384348343245463</view>
+        <view>XXX</view>
+        <view>2018-06-25</view>
+        <view>352523235</view>
+      </view>
+      <view class='itemright'>
+        <image src='/image/u637.png' bindtap='onslide1'></image>
+      </view>
+
+    </view>
+    <view class=" hid1{{chose1?'shw1':''}}">
+      <view class='title1'>
+        <text>处方号</text>
+      </view>
+      <view class='shadow'>
+        <view>
+          <text>名称</text>
+          <text>XXXXX</text>
+        </view>
+        <view>
+          <text>数量</text>
+          <text>1</text>
+        </view>
+        <view>
+          <text>金额</text>
+          <text>233</text>
+        </view>
+      </view>
+    </view>
+    <view class='foot'>
+      <view class='footleft'>
+        <text>合计</text>
+        <text style='color:red'>   899.0元</text>
+      </view>
+      <view class='footright'>
+        <text style='color:#888'>已缴费</text>
+      </view>
+    </view>
+    
+  </view>
+
+</view>

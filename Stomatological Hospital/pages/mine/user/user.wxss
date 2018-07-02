@@ -1,0 +1,86 @@
+/* pages/mine/user/user.wxss */
+page{
+  
+  height: 100%;
+  overflow: hidden;
+}
+.all{
+  height: 98%;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1rpx solid #000;
+  border-top: 1rpx solid #000;
+  margin-top: 10rpx;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30rpx;
+  border-right: 1rpx solid #000;
+  margin: 20rpx 0;
+  flex-direction: column;
+}
+
+.name>text {
+  font-size: 48rpx;
+  font-weight: bold;
+}
+
+.name>text:last-child {
+  font-size: 30rpx;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40rpx 0;
+  font-size: 25rpx;
+  font-weight: bold;
+}
+
+.item>image {
+  width: 68rpx;
+  height: 50rpx;
+  margin: 0 20rpx;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #000;
+  font-size: 28rpx;
+}
+
+.introduce>text:first-child {
+  font-weight: bold;
+  font-size: 40rpx;
+  margin: 10rpx 0;
+}
+
+.introduce>text {
+  margin: 3rpx 0;
+}
+.btn{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.btn>button{
+ background: #0080ff;
+  color: white;
+  width: 90%;
+}

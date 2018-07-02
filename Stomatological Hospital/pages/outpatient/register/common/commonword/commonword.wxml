@@ -1,0 +1,50 @@
+<!--pages/outpatient/register/common/commonword/commonword.wxml-->
+<view class='top'>
+  <view class='item'>
+    <view class='leftitem kl'>
+      <image src='/image/icon_person.png'></image>
+      <text>就诊人</text>
+    </view>
+    <view class='rightitem kl' bindtap="modalinput">
+      <text >XXX</text>
+      <image src='/image/u197.png'></image>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='leftitem kl'>
+      <image src='/image/icon_register.png'></image>
+      <text>就诊卡</text>
+    </view>
+    <view class='rightitem kl'>
+      <text>320104199404261624</text>
+      <image src='/image/u197.png'></image>
+    </view>
+  </view>
+  <view class='info'>
+    <view>就诊信息</view>
+    <view>
+      <view>医生</view>
+      <view>普通号外科</view>
+    </view>
+    <view>
+      <view>科室</view>
+      <view>口腔颌面外科</view>
+    </view>
+    <view>
+      <view>签到时间</view>
+      <view>2018-05-16 星期三 14:00-15:00</view>
+    </view>
+    <view>
+      <view>挂号费</view>
+      <view>12</view>
+    </view>
+  </view>
+  <view class='btn'>
+    <button form-type='submit' hover-class='none' bindtap='onsuc'>立即挂号</button>
+  </view>
+   <view class="modal {{modalinput?'show':'hide'}}">
+     <view>XXX</view>
+     <view>XXX</view>
+     <view bindtap='cancel'>取消</view>
+   </view>
+</view>

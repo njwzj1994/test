@@ -1,0 +1,46 @@
+/* pages/outpatient/record/clinic/success/success.wxss */
+page{
+  background: #eee;
+  height: 100%;
+  overflow: hidden;
+
+}
+.content{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350rpx;
+  font-size: 45rpx;
+  color: #888;
+  background: white;
+  margin: 20rpx;
+}
+.next{
+  margin: 20rpx;
+  background: white;
+  padding: 30rpx 20rpx;
+  color: #66B3FF;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.next>view:first-child{
+  margin: 10rpx 0;
+  color: #888;
+
+}
+.btn{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.btn>button{
+  background: #0080ff;
+  color: white;
+  width: 100%;
+  
+}

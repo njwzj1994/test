@@ -1,0 +1,45 @@
+<!--pages/inhospital/list/listword/listword.wxml-->
+<view class='content'>
+  
+  <view class=' kl'>
+    
+    <view class='list'>
+      <view class='item strong'>
+        <view>就诊人</view>
+        <text>李彦华</text>
+      </view>
+      <view class='item1'>
+        <view>住院号</view>
+        <text>89765423</text>
+      </view>
+      <view class='item1'>
+        <view>床号</view>
+        <text>12</text>
+      </view>
+      <view class='item1'>
+        <view>最近一次住院时间</view>
+        <text>2018/06/21</text>
+      </view>
+      
+    </view>
+  </view>
+  
+  <view class='container1'>
+    
+    <view class='list'>
+      <view class='item strong'>
+        <view>住院每日清单</view>
+        <text></text>
+      </view>
+      <view class='item' >
+        <view>2018-06-21</view>
+        <text>详情</text>
+      </view>
+      
+      
+    </view>
+  </view>
+  <view class='btn'>
+    <button formType="submit" hover-class="none" bindtap='ondetail'>查询住院清单</button>
+  </view>
+</view>
