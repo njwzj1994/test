@@ -1,0 +1,150 @@
+/* pages/outpatient/register/information/information.wxss */
+
+.date {
+  width: 100%;
+  align-items: center;
+  padding: 20rpx 0 0 0;
+  
+}
+
+.date>view {
+  float: left;
+  padding: 10rpx;
+  width: 70rpx;
+  text-align: center;
+  height: 70rpx;
+}
+
+
+
+.all {
+  font-size: 35rpx;
+  line-height: 70rpx;
+}
+
+.date>view>text {
+  float: left;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.date>image {
+  width: 20rpx;
+  height: 33rpx;
+  font-size: 20rpx;
+  float: left;
+  margin: 30rpx 20rpx 0 20rpx;
+}
+
+.date>.active {
+  background: #0080ff;
+  color: white;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 33rpx;
+  border: 1px solid #eee;
+  padding: 12rpx 20rpx;
+}
+
+.itemleft {
+  display: flex;
+  justify-content: space-around;
+  font-size: 38rpx;
+}
+
+.itemleft>view>image {
+  width: 130rpx;
+  height: 170rpx;
+}
+
+.leftword {
+  padding: 0 20rpx;
+}
+
+.itemright>image {
+  width: 20rpx;
+  height: 33rpx;
+  margin-left: 60rpx;
+}
+
+.itemright>.logo {
+  width: 80rpx;
+  height: 45rpx;
+  background: #0c3;
+  color: white;
+  border-radius: 10rpx;
+  font-size: 27rpx;
+  text-align: center;
+  line-height: 40rpx;
+  margin: 13rpx;
+}
+
+.title {
+  text-align: center;
+  font-size: 35rpx;
+  color: #999;
+}
+
+.clinic {
+  font-size: 30rpx;
+  border-top: 1rpx solid #999;
+  background: #eee;
+  padding: 20rpx 0 10rpx 20rpx;
+}
+
+.common {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  border-top: 1rpx solid #999;
+  background: white;
+  padding: 20rpx ;
+}
+.common>image{
+  width: 20rpx;
+  height: 32rpx;
+  margin-top: 10rpx;
+}
+
+
+scroll-view{
+  height: 128rpx;
+ 
+  width: 100%;
+}
+scroll-view .list{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+    width: 1302rpx; 
+}
+scroll-view .listItem{
+  text-align: center;
+  width: 186rpx;
+  height: 128rpx;
+  background-color: #f1f2f6;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+  /* float: left; */
+  display: inline-block;
+}
+scroll-view .listItem text{
+  display: block;
+}
+scroll-view .listItem .name{
+  font-size: 21rpx;
+}
+scroll-view .listItem .date{
+  font-size: 21rpx;
+}
+scroll-view .current{
+  background-color: #76aef8;
+
+}
+scroll-view .current text{
+  color: #fff;
+}

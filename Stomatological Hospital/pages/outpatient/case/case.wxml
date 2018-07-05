@@ -1,0 +1,48 @@
+<view class='nav'>
+  <view class="{{chose?'art':''}}" bindtap='chose'>检查报告</view>
+  <view class="{{chose1?'art':''}}" bindtap='chose1'>检验报告</view>
+</view>
+<view class='content'>
+  <view class="{{chose?'show':'hide'}}">
+    <view class='item'>
+      <view class='person'>
+        <view>
+          <text>就诊人</text>
+        </view>
+        <view>
+          <text style='color:#0080ff;'>往事</text>
+          <image src='/image/u154.png'></image>
+        </view>
+      </view>
+      <view class='number'>
+        <text>体检单号</text>
+        <input placeholder='请输入体检单号' />
+        <image src='/image/u549.png'></image>
+      </view>
+      <view class='btn'>
+        <button hover-class='none'>查询</button>
+      </view>
+    </view>
+  </view>
+  <view class="{{chose1?'show':'hide'}}">
+    <view class='item'>
+      <view class='person'>
+        <view>
+          <text>就诊人</text>
+        </view>
+        <view>
+          <text style='color:#0080ff;'>往事</text>
+          <image src='/image/u154.png'></image>
+        </view>
+      </view>
+      <view class='number'>
+        <text>体检单号</text>
+        <input placeholder='请输入体检单号' />
+        <image src='/image/u549.png'></image>
+      </view>
+      <view class='btn'>
+        <button hover-class='none'>查询</button>
+      </view>
+    </view>
+  </view>
+</view>

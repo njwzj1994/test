@@ -1,0 +1,41 @@
+/* pages/inhospital/inhospital.wxss */
+
+page{
+  height: 100%;
+  overflow: hidden;
+}
+.hosp{
+  position: relative;
+  
+   display: flex;
+  align-items: flex-end;
+  height: 100%;
+  overflow: hidden;
+}
+.bg{
+  position: absolute;
+  height: 100%;
+  width:100%;
+ z-index: -1;
+
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70rpx;
+}
+.menu>view{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.menu>view>image{
+  width: 120rpx;
+  height: 120rpx;
+  
+}
+.menu>view>text{
+  font-size: 30rpx;
+  color: white;
+}

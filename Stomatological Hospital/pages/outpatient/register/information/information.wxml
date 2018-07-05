@@ -1,0 +1,82 @@
+<!--pages/outpatient/register/information/information.wxml-->
+<view>
+  <view class='title'>今天是{{calendar[0].date}}{{calendar[0].week}}</view>
+  <view class='date'>
+
+    
+
+    <scroll-view class="scroll-view_H" scroll-x>
+      <view class='list' style='width:100%'>
+        <view bindtap="select" wx:for="{{ calendar }}" wx:for-item="item" wx:for-index="index" data-index="{{ index }}" class='listItem {{index==currentIndex? "current":""}}'>
+          <text class='name'>{{ item.week }}</text>
+          <text class='date'>{{ item.date }}</text>
+        </view>
+      </view>
+    </scroll-view>
+  
+
+  </view>
+  <view class='clinic'>专家门诊</view>
+  <view class='common' bindtap='oncommon'>
+    <view>普通号</view>
+    <image src='/image/u197.png'></image>
+  </view>
+  <view class='clinic'>专家门诊</view>
+
+  <view class='item'>
+    <view class='itemleft'>
+      <view>
+        <image src='/image/u192.png'></image>
+      </view>
+      <view class='leftword'>
+        <view>姓名 职称
+          <text>\n简介</text>
+        </view>
+      </view>
+
+
+    </view>
+    <view class='itemright' bindtap='onenter'>
+      <view class='logo'>有号</view>
+      <image src='/image/u197.png'></image>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='itemleft'>
+      <view>
+        <image src='/image/u192.png'></image>
+      </view>
+      <view class='leftword'>
+        <view>姓名 职称
+          <text>\n简介</text>
+        </view>
+      </view>
+
+
+    </view>
+    <view class='itemright'>
+      <view class='logo'>有号</view>
+      <image src='/image/u197.png'></image>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='itemleft'>
+      <view>
+        <image src='/image/u192.png'></image>
+      </view>
+      <view class='leftword'>
+        <view>姓名 职称
+          <text>\n简介</text>
+        </view>
+      </view>
+
+
+    </view>
+    <view class='itemright'>
+      <view class='logo'>有号</view>
+      <image src='/image/u197.png'></image>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,134 @@
+/* pages/user/user.wxss */
+
+page {
+  background: #eee;
+  height: 100%;
+}
+
+.all {
+  position: relative;
+  height: 100%;
+}
+
+.user {
+  height: 340rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user>image {
+  width: 105rpx;
+  height: 100rpx;
+}
+
+.username {
+  height: 60rpx;
+  width: 40%;
+  text-align: center;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+}
+
+.username>image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 15rpx;
+  float: right;
+}
+
+.lock-box {
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+
+.lock-cav {
+  
+  
+  margin: auto;
+  z-index: 5;
+}
+
+.lock-title {
+  
+  margin-left: 40rpx;
+  display: block;
+  font-size: 36rpx;
+  color: #10aeff;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.lock-title.error {
+  color: #e64340;
+}
+
+.lock-title.succ {
+  color: #09bb07;
+}
+
+.lock-reset {
+  float: right;
+  color: #10aeff;
+  display: block;
+  font-size: 36rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-right: 30rpx;
+}
+
+.lock-reset:active {
+  opacity: 0.8;
+}
+
+.modal {
+  width: 500rpx;
+  height: 276rpx;
+  background: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 35rpx;
+  z-index: 888;
+}
+
+.modal>view {
+  border-bottom: 1rpx solid #555;
+  height: 92rpx;
+  text-align: center;
+  line-height: 92rpx;
+}
+
+.modal>view:last-child {
+  border-bottom: 1rpx solid #fff;
+}
+
+.item {
+}
+
+.item>image {
+  float: right;
+  width: 35rpx;
+  height: 35rpx;
+  margin-top: 25rpx;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.forget {
+  color: blue;
+  float: right;
+  margin: 50rpx;
+}

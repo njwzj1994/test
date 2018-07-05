@@ -1,0 +1,31 @@
+<!--pages/outpatient/register/common/common.wxml-->
+
+<view class='regist'>
+  <view class='item'>
+    <view class='bg'>
+      <text>口腔正畸科 05.16 星期三</text>
+      <text>08:00-08:30</text>
+    </view>
+    <view class='bg1'  bindtap='onnumber'>
+      有号
+    </view>
+  </view>
+  <view class='item'>
+    <view class='bg'>
+      <text>口腔正畸科 05.16 星期三</text>
+      <text>08:00-08:30</text>
+    </view>
+    <view class='bg1'  >
+      有号
+    </view>
+  </view>
+  <view class='item'>
+    <view class='bg'>
+      <text>口腔正畸科 05.16 星期三</text>
+      <text>10:00-10:30</text>
+    </view>
+    <view class='bg1'  >
+      有号
+    </view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+/* pages/outpatient/register/register.wxss */
+.cont{
+  padding: 30rpx 0;
+}
+.cont>view{
+  border-bottom: 1px solid #e0e0e0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 100rpx;
+  font-size: 32rpx;
+  padding: 0 30rpx;
+}
+.cont>view:first-child{
+  border-top: 1px solid #e0e0e0;
+}
+.cont>view>image{
+  width: 20rpx;
+  height: 32rpx;
+  font-size: 28rpx;
+ 
+}

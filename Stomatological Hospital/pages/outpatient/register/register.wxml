@@ -1,0 +1,14 @@
+<view class='cont'>
+  <view>
+    <text>口腔病理科</text>
+    <image src='/image/u154.png' bindtap='onenter'></image>
+  </view>
+  <view>
+    <text>口腔粘膜科</text>
+    <image src='/image/u154.png'></image>
+  </view>
+  <view>
+    <text>口腔正畸科</text>
+    <image src='/image/u154.png'></image>
+  </view>
+</view>
