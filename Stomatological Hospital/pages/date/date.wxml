@@ -1,9 +1,0 @@
-<!--pages/date/date.wxml-->
-<scroll-view class="scroll-view_H" scroll-x>
-  <view class='list' style='width:100%'>
-    <view bindtap="select" wx:for="{{ calendar }}" wx:for-item="item" wx:for-index="index" data-index="{{ index }}" class='listItem {{index==currentIndex? "current":""}}'>
-      <text class='name'>{{ item.week }}</text>
-      <text class='date'>{{ item.date }}</text>
-    </view>
-  </view>
-</scroll-view>
