@@ -1,0 +1,11 @@
+<!--pages/outpatient/case/scan/scan.wxml-->
+<view class='logo'>
+  <view class='logo1'>
+    <view class='logo2'></view>
+  </view>
+</view>
+<view class='word'>将条形码放入框内，自动扫描</view>
+<view class='lamp'>
+  <image src='/image/u619.png'></image>
+  <text>灯光</text>
+</view>

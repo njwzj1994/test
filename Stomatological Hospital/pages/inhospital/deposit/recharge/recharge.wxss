@@ -1,0 +1,48 @@
+/* pages/inhospital/deposit/recharge/recharge.wxss */
+
+.content{
+  padding: 40rpx;
+  font-size: 35rpx;
+}
+.select{
+  padding-right: 40rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  border-radius: 10rpx;
+  background: #eee;
+  font-size: 0;
+  overflow: hidden;
+  margin: 20rpx 0;
+  
+  }
+.select>image{
+  width: 122rpx;
+  height: 90rpx;
+  margin: -10rpx 10rpx -10rpx 0;
+  display: block;
+  
+}
+.select>input{
+  
+  color: black;
+  padding: 10rpx;
+  flex: auto;
+  font-size: 29rpx;
+}
+.money{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  
+}
+button{
+  margin-top: 35rpx;
+  background: #0080ff;
+  color: white;
+
+}
+.word{
+  padding: 0 25rpx;
+}

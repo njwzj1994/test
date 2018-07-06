@@ -1,0 +1,28 @@
+<!--pages/mine/user/user.wxml-->
+<view class='all'>
+  <view class='title'>
+    <view class='name'>
+      <text>李红燕</text>
+      <text>未绑卡</text>
+    </view>
+    <view class='info'>
+      <view class='item'>
+        <image src='/image/u1020.png'></image>
+        <text>15429784398</text>
+      </view>
+      <view class='item'>
+        <image src='/image/u1020.png'></image>
+        <text>320108199907122183</text>
+      </view>
+    </view>
+  </view>
+  <view class='introduce'>
+    <text>温馨提示</text>
+    <text>1.就诊人最多可添加三个人</text>
+    <text>2.请填写就诊人的真实信息，包括身份证和电话号码。</text>
+    <text>3.未成年人还要添加监护人的身份证号。</text>
+  </view>
+  <view class='btn'>
+    <button formType="submit" hover-class="none" bindtap='onadd'>添加常用就诊人</button>
+  </view>
+</view>

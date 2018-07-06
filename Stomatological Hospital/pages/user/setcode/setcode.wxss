@@ -1,0 +1,27 @@
+/* pages/user/setcode/setcode.wxss */
+
+page {
+  background: #eee;
+}
+
+.title {
+  height: 340rpx;
+  color: #0080ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100rpx;
+  height: 100rpx;
+  background: white;
+  margin: 30rpx 0;
+}
+
+.gesture-lock {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}

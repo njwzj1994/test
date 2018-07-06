@@ -1,0 +1,80 @@
+/* pages/mine/mine.wxss */
+
+.mine {
+  background: #4cb6ac;
+  overflow: hidden;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.meleft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+
+.bg {
+  background-size: cover;
+  border-radius: 50%;
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.word {
+  margin-left: 10px;
+  flex: 1;
+ 
+}
+
+.word>view {
+  color: white;
+  font-size: 33rpx;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemall {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.item {
+  padding: 15px;
+ 
+  border-top: 1px solid #e9eded;
+  display: flex;
+  justify-content: space-between;
+}
+.item:last-child{
+  border-bottom: 1px solid #e9eded;
+}
+.itemleft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.itemleft>image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.itemleft>text {
+  font-size: 32rpx;
+  margin-left: 10px;
+}
+.itemright{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+.itemright>image{
+  width: 20rpx;
+  height: 30rpx;
+}

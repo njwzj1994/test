@@ -1,0 +1,149 @@
+/* pages/outpatient/record/record.wxss */
+
+page {
+  background: #eee;
+}
+
+.alt {
+  position: relative;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  background: white;
+}
+
+.nav>view {
+  width: 50%;
+}
+
+.red {
+  color: #06f;
+  border-bottom: 2rpx solid #06f;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.content {
+  background: white;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20rpx;
+  margin-top: 30rpx;
+}
+
+.le {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.le>image {
+  width: 155rpx;
+  height: 205rpx;
+}
+
+.rt>image {
+  width: 20rpx;
+  height: 40rpx;
+  margin: 45rpx 0 0 80rpx;
+}
+
+.rt>view {
+  width: 117rpx;
+  height: 50rpx;
+  background: #ddd;
+  color: white;
+  font-size: 28rpx;
+  border-radius: 12rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.word {
+  margin: 30rpx 20rpx;
+}
+
+.word>text {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  margin: 30rpx;
+  padding: 40rpx 0;
+  background: #eee;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lt {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16rpx;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2rpx solid #ccc;
+  padding: 20rpx;
+}
+
+.fare>text {
+  margin: 0 15rpx;
+}
+
+.fare>text:last-child {
+  color: red;
+}
+
+
+
+.kl {
+  padding: 20rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.btn1>image {
+  width: 30rpx;
+  height: 52rpx;
+}
+
+.history>.color {
+  background: #36f;
+}
+
+.history>.color1 {
+  background: #222;
+}
+
+.history>.color2 {
+  background: red;
+}
+
+

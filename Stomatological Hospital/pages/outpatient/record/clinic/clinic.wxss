@@ -1,0 +1,143 @@
+/* pages/outpatient/record/clinic/clinic.wxss */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+  align-items: flex-start;
+}
+
+.lt>image {
+  width: 155rpx;
+  height: 205rpx;
+}
+
+.lt {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.word {
+  margin: 20rpx;
+}
+
+.word>text {
+  display: flex;
+  flex-direction: column;
+}
+
+.rt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rt>view {
+  display: flex;
+  flex-direction: row;
+  font-size: 30rpx;
+  background: #eee;
+  color: #888;
+  border-radius: 15rpx;
+  padding: 15rpx;
+  margin: 10rpx 0;
+}
+
+.rt>view>image {
+  width: 36rpx;
+  height: 40rpx;
+  margin: 0 6rpx;
+}
+
+.rt>view>text {
+  margin: 0 6rpx;
+}
+
+.nav {
+  width: 100%;
+  height: 120rpx;
+  text-align: center;
+  line-height: 120rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav>view {
+  width: 50%;
+}
+
+.red {
+  color: #0080ff;
+  border-bottom: 2rpx solid #0080ff;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.regist {
+  width: 100%;
+  margin-top: 30rpx;
+}
+
+.item {
+  width: 340rpx;
+  height: 68rpx;
+  float: left;
+  font-size: 20rpx;
+  margin: 15rpx;
+  text-align: center;
+  line-height: 68rpx;
+}
+
+.bg {
+  width: 240rpx;
+  height: 68rpx;
+  background: #eee;
+  float: left;
+  border-radius: 15rpx 0 0 15rpx;
+  
+}
+
+.bg1 {
+  
+  background: #0c3;
+  
+}
+.more{
+  width: 100rpx;
+  height: 68rpx;
+  font-size: 23rpx;
+  float: left;
+  font-weight: bold;
+  border-radius: 0 15rpx 15rpx 0;
+  color: white;
+  text-align: center;
+  line-height: 68rpx;
+}
+.bg2 {
+  
+  background: #777;
+  
+}
+.easy{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 30rpx;
+  
+}
+
+.easy>text:first-child{
+  color: #ccc;
+}
+.easy>text{
+  margin: 10rpx 0;
+}
+.bc{
+   border-bottom: 2rpx solid #ccc;
+}

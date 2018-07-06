@@ -1,0 +1,57 @@
+/* pages/outpatient/case/scan/scan.wxss */
+
+page {
+  background: black;
+  height: 100%;
+  margin: auto;
+}
+
+.logo {
+  width: 380rpx;
+  height: 350rpx;
+  background: white;
+  margin: 120rpx auto;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  width: 300rpx;
+  height: 270rpx;
+  background: black;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo2 {
+  width: 235rpx;
+  height: 35rpx;
+  background: white;
+  border-radius: 10%;
+}
+
+.word {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 26rpx;
+}
+
+.lamp {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.lamp>image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 60rpx auto 20rpx;
+}

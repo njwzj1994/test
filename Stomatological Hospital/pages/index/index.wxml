@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view class='cont'>
+  <image src='/image/u1.png'></image>
+  <text>江苏省口腔医院</text>
+</view>
+<view class='num'>
+  <view class='item'>
+    <image src='/image/u1.png'></image>
+    <input placeholder='请输入手机号码'/>
+  </view>
+  <view class='item'>
+    <image src='/image/u1.png'></image>
+    <input placeholder='请输入手机号码'/>
+    <view class='code'>获取验证码</view>
+  </view>
+</view>
+<button hover-class='none' bindtap='onenter'>确认</button>

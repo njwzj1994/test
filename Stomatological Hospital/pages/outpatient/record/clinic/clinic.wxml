@@ -1,0 +1,62 @@
+<!--pages/outpatient/record/clinic/clinic.wxml-->
+<view class='title'>
+  <view class='lt'>
+
+    <image src='/image/u192.png'></image>
+
+    <view class='word'>
+      <text>XXX</text>
+      <text>整型外科</text>
+      <text>主任医师</text>
+    </view>
+  </view>
+  <view class='rt'>
+    <view>
+      <image src='/image/u284.png'></image>
+      <text>疗效</text>
+      <text>83</text>
+    </view>
+    <view>
+      <image src='/image/u284.png'></image>
+      <text>态度</text>
+      <text>83</text>
+    </view>
+  </view>
+</view>
+<view class='nav'>
+  <view class="{{chose?'red':''}}" bindtap='chose'>预约挂号</view>
+  <view class="{{chose1?'red':''}}" bindtap='chose1'>医生简介</view>
+</view>
+<view class='content'>
+  <view class="{{chose?'show':'hide'}}">
+    <view class='regist'>
+      <view class='item'>
+        <view class='bg'>
+          0621 星期四 8:00-8:30
+        </view>
+        <view class='more bg1' bindtap='onnumber'>
+          有号
+        </view>
+      </view>
+      <view class='item'>
+        <view class='bg'>
+          0621 星期四 10:00-10:30
+        </view>
+        <view class='more bg2'>
+          约满
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class="{{chose1?'show':'hide'}}">
+    <view class='easy bc'>
+      <text>擅长</text>
+      <text>腔和面部肿瘤</text>
+    </view>
+    <view class='easy'>
+      <text>简介</text>
+      <text>此处省略五十个字</text>
+    </view>
+  </view>
+</view>

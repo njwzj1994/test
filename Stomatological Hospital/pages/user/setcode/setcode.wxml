@@ -1,0 +1,10 @@
+<!--pages/user/setcode/setcode.wxml-->
+<view class='title'>
+  <view class='logo'>
+
+  </view>
+  <text>请设置您的手势密码</text>
+</view>
+<view class="container1">
+  <canvas canvas-id="id-gesture-lock" class="gesture-lock" bindtouchstart="onTouchStart" bindtouchmove="onTouchMove" bindtouchend="onTouchEnd"></canvas>
+</view>
